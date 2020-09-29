@@ -48,10 +48,6 @@
           'url': 'https://www.facebook.com/profile.php?id=100006286786323'
         },
         {
-          'icon': 'mdi-instagram',
-          'url': 'https://www.instagram.com/ozzaqnh/'
-        },
-        {
           'icon': 'mdi-linkedin',
           'url': 'https://www.linkedin.com/in/abdurozzaqnh/'
         },

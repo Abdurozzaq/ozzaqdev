@@ -1,7 +1,7 @@
 <template>
   <div class="grey lighten-4">
     <PageTitle title="My Projects Roadmap" />
-    <Roadmap class="mx-16" />
+    <Roadmap class="mx-8" />
   </div>
 </template>
 

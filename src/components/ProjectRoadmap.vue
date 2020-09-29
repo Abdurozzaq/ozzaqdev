@@ -28,6 +28,7 @@
               outlined
               :href="item.link"
               target="_blank"
+              small
             >
               Source Code
             </v-btn>
