@@ -136,7 +136,7 @@ export default {
 
     sendEmail: function(e) {
       let currentObj = this
-      emailjs.sendForm('abdurozzaq.jobs', 'ozzaqdev_template', e.target, 'user_R3HZsEdhBNKAbXwcpDhqG')
+      emailjs.sendForm('abdurozzaq.jobs', 'ozzaqdev_template', e.target, process.env.VUE_APP_EMAILJS_USER_ID)
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
             currentObj.snackbar_text = "Email has been sent successfully!"
