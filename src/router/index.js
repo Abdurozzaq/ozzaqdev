@@ -8,10 +8,10 @@ import Contact from '../views/pages/ContactPage.vue'
 
 Vue.use(VueRouter)
 
-const pageTitle = (to, from, next) => {
-  document.title = to.meta.title
-  next()
-}
+// const pageTitle = (to, from, next) => {
+//   document.title = to.meta.title
+//   next()
+// }
 
 const routes = [
   {
@@ -20,11 +20,7 @@ const routes = [
     children: [
       {
           path: "",
-          meta: {
-              title: 'Home - ozzaqdev',
-          },
           component: LandingPage,
-          beforeEnter: pageTitle
       },
     ]
   },
@@ -34,19 +30,11 @@ const routes = [
     children: [
       {
         path: "project-roadmap",
-        meta: {
-            title: 'Roadmap - ozzaqdev',
-        },
         component: Roadmap,
-        beforeEnter: pageTitle
       },
       {
         path: "contact",
-        meta: {
-            title: 'Contact Me - ozzaqdev',
-        },
         component: Contact,
-        beforeEnter: pageTitle
       }
     ]
   },
