@@ -75,6 +75,12 @@ export default {
           'year': 'Aug 21, 2020'
         },
         {
+          'name': 'OCIAL',
+          'desc': 'A Vuetify Social Network Dashboard UI Design',
+          'link': 'https://www.github.com/Abdurozzaq/Ocial',
+          'year': 'Jan 13, 2021'
+        },
+        {
           'name': 'NEXT?',
           'desc': 'And The Next Projects Will Be In Your Call',
           'year': 'Comming Soon'

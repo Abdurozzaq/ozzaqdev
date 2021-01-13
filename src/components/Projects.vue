@@ -74,6 +74,12 @@ export default {
           'desc': 'A web application for libraries that enables a librarian to receive book loans, and process book loan and repayment data.',
           'link': 'https://www.github.com/Abdurozzaq/Oibrary',
           'photo': '/img/oibrary.png'
+        },
+        {
+          'name': 'OCIAL',
+          'desc': 'A Vuetify Social Network Dashboard UI Design',
+          'link': 'https://www.github.com/Abdurozzaq/Ocial',
+          'photo': '/img/ocial.png'
         }
       ],
     }
