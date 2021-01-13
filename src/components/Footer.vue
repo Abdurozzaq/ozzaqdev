@@ -28,7 +28,7 @@
         </v-btn>
       </v-card-title>
 
-      <v-card-text class="grey darken-3 py-2 white--text text-center">
+      <v-card-text class="grey darken-4 py-2 white--text text-center">
         {{ new Date().getFullYear() }} — <strong>Abdurozzaq Nurul Hadi</strong>
       </v-card-text>
     </v-card>

@@ -9,15 +9,17 @@
     <v-row 
       v-for="(cpj, index) in chunkedProjects"
       :key="index"
+      class="mx-8"
+      align="center" justify="center"
     >
       <v-col
         v-for="(pj, index) in cpj"
         :key="index"
-        class="mb-10"
+        class="mb-10 mx-auto"
       >
         <v-card
-          class="mx-auto mt-5"
-          max-width="344"
+          class="mt-5 py-6 rounded-xl"
+          height="410px"
           elevation="8"
         >
           <v-img
@@ -26,18 +28,16 @@
             max-width="300px"
           ></v-img>
 
-          <v-card-title>
-            {{ pj.name }}
-          </v-card-title>
+          <div class="text-center text-h5 font-weight-bold">{{ pj.name }}</div>
 
-          <v-card-subtitle>
-            {{ pj.desc}}
+          <v-card-subtitle class="text-center text-subtitle-1 pt-0">
+            {{ pj.desc }}
           </v-card-subtitle>
 
           <v-card-actions>
             <v-btn
               color="blue-grey"
-              class="ma-2 white--text"
+              class="ma-2 white--text mx-auto"
               :href="pj.link"
               target="_blank"
             >

@@ -3,7 +3,7 @@
     
     <v-app-bar
       app
-      class="grey darken-2"
+      class="grey darken-4"
       elevation-5
       hide-on-scroll
       
