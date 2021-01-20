@@ -25,7 +25,7 @@ const routes = [
     ]
   },
   {
-    path: "",
+    path: "/pages",
     component: PagesLayout,
     children: [
       {
