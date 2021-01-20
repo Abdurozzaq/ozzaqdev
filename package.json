@@ -21,8 +21,7 @@
     "cordova-serve-browser": "cross-env CORDOVA_PLATFORM=browser vue-cli-service cordova-serve-browser",
     "cordova-serve-electron": "cross-env CORDOVA_PLATFORM=electron vue-cli-service cordova-serve-electron",
     "cordova-serve-ios": "cross-env CORDOVA_PLATFORM=ios vue-cli-service cordova-serve-ios",
-    "cordova-serve-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-serve-osx",
-    "deploy": "sh deploy.sh"
+    "cordova-serve-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-serve-osx"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",

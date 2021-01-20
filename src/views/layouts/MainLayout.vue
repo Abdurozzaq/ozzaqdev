@@ -79,11 +79,11 @@
         },
         {
           'label': 'Roadmap',
-          'url': "/pages/project-roadmap"
+          'url': "/project-roadmap"
         },
         {
           'label': 'Contact Me',
-          'url': "/pages/contact"
+          'url': "/contact"
         },
       ],
     }),
