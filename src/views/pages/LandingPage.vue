@@ -21,7 +21,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'description', content: 'I am a vocational high school student with a major in Software Engineering, at SMKN 12 Kab. Tangerang. From there I get basic knowledge for become a software engineer. Then I also studied it myself, until there have been several personal projects which I especially made with using Laravel & Vue.js.' },
+      { name: 'description', content: 'Abdurozzaq\'s Portfolio' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ]
   },
